@@ -1,6 +1,6 @@
 import "./App.css";
 import "./Responive.css";
-import video from "./img/video.mp4"
+import header from './js/script';
 import React from "react";
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
         <div className="container" >
           <div className="header-title" >
             <h1><span className="font">Explore</span><span className="font-bold"> The Traveling</span></h1>
-            <p>ENJOY THE BEST DESTINATIONS WITH OUR TRAVEL AGENCY</p>
+            <p>Enjoy the best destinations with our travel agency</p>
           </div>
 
           <div className="header-form" >
@@ -41,10 +41,10 @@ function App() {
             </form>
           </div>
         </div>
-    <video className="video-hero" src={video} autoPlay loop muted></video>
+      {/* <video className="video-hero" src={video} autoPlay loop muted></video> */}
       </header>
     </>
   );
 }
-
+header()
 export default App;
