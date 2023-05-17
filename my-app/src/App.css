@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Open+Sans:wght@300&family=Raleway:wght@200;400;600;700;900&display=swap");
 :root {
-  --green: #FFD51E;
+  --green: #ffd51e;
   --light-grey: #f7f7f7;
   --dark: #0e1010;
   --trans: all 0.3s ease-in-out;
@@ -82,19 +82,19 @@ input[type="submit"] {
   padding: 1rem 0;
   z-index: 999;
 }
-<<<<<<< HEAD
-.logo-img{
+<<<<<<< HEAD .logo-img {
   padding-right: 10px;
   height: 50px;
 }
 .Navbar .container-flex {
   padding: 0px 30px;
   align-items: center;
-=======
-.Navbar .container-flex{
+}
+/* ======= */
+.Navbar .container-flex {
   padding: 0px 15px;
 
->>>>>>> a7c40f4c334b961ea483b36d7aaa605630e5e849
+  /* >>>>>>> a7c40f4c334b961ea483b36d7aaa605630e5e849 */
   display: flex;
   justify-content: space-between;
 }
@@ -109,11 +109,8 @@ input[type="submit"] {
   font-weight: 300;
   color: var(--green);
 }
-<<<<<<< HEAD
+
 #navbar-show-btn {
-=======
-#navbar-show-btn{
->>>>>>> a7c40f4c334b961ea483b36d7aaa605630e5e849
   background: none;
   color: #fff;
   height: 35px;
@@ -181,12 +178,10 @@ header {
   position: relative;
   min-height: 100vh;
   padding-top: 8rem;
-<<<<<<< HEAD
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url(./img/header.jpg) center/cover no-repeat;
-=======
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(./img/header.jpg) center/cover no-repeat;
->>>>>>> a7c40f4c334b961ea483b36d7aaa605630e5e849
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(./img/header.jpg) center/cover no-repeat;
   flex-direction: column;
   color: #fff;
   text-align: center;
@@ -208,15 +203,13 @@ header {
   letter-spacing: -1px;
 }
 
-<<<<<<< HEAD
 .header-title p {
   margin: 1rem auto;
   max-width: 500px;
-=======
-.header-title p{
-  margin: 1.0rem auto;
-  max-width:500px;
->>>>>>> a7c40f4c334b961ea483b36d7aaa605630e5e849
+}
+.header-title p {
+  margin: 1rem auto;
+  max-width: 500px;
   font-weight: 700;
   font-size: 1.3rem;
   line-height: 1.7;
@@ -292,7 +285,6 @@ header {
   box-shadow: 0px 4px 5px 0px rgba(48, 48, 48, 0.2);
   transition: var(--trans);
 }
-<<<<<<< HEAD
 .navbar-cnd {
   color: #000;
 }
@@ -305,22 +297,20 @@ header {
 .navbar-cng #navbar-show-btn {
   color: var(--green);
 }
-.resize-animation-stopper *{
+.resize-animation-stopper * {
   animation: none !important;
   transition: none !important;
 }
 
-=======
-.navbar-cng .site-brand{
+.navbar-cng .site-brand {
   color: var(--dark);
 }
-.navbar-cng .site-brand span{
+.navbar-cng .site-brand span {
   color: var(--green);
 }
-.navbar-cng #navbar-show-btn{
+.navbar-cng #navbar-show-btn {
   color: var(--green);
 }
->>>>>>> a7c40f4c334b961ea483b36d7aaa605630e5e849
 
 /* .App-header{
   display: flex;
