@@ -1,6 +1,6 @@
 import "./App.css";
 import "./Responive.css";
-import header from "./js/script";
+// import header from "./js/script";
 import Header from "./componets/header";
 import Feature from "./componets/feature";
 import React from "react";
@@ -59,5 +59,5 @@ function App() {
     </>
   );
 }
-header();
+// header();
 export default App;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const header = () => {
   let navbarDiv = document.querySelector(".Navbar");
   let navbarlink = document.querySelector(".nav-item");
@@ -52,3 +53,26 @@ const header = () => {
   });
 };
 export default header;
+=======
+const header =()=>{
+    let navbarDiv=document.querySelector('.Navbar');
+    window.addEventListener('scroll',()=>{
+        if(document.body.scrollTop > 40 || document.documentElement.scrollTop > 40){
+            navbarDiv.classList.add('navbar-cng');
+        }else{
+            navbarDiv.classList.remove('navbar-cng')
+        }
+    });
+    const navbarCollapseDiv = document.getElementById('navbar-collapse');
+    const navbarShowBtn = document.getElementById('navbar-show-btn');
+    const navbarCloseBtn = document.getElementById('navbar-close-btn');
+    navbarShowBtn.addEventListener('click', ()=>{
+        navbarCollapseDiv.classList.add('navbar-collapse-rmw')
+    } );
+
+    navbarCloseBtn.addEventListener('click', ()=>{
+        navbarCollapseDiv.classList.remove('navbar-collapse-rmw')
+    })
+}
+export default header;
+>>>>>>> a7c40f4c334b961ea483b36d7aaa605630e5e849
